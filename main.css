@@ -102,6 +102,7 @@ li{
     }
 
       .box1{
+        background: black;
         border: .5px solid black;
         height: 100%;
         float: left;
@@ -112,9 +113,10 @@ li{
         .bottombox1{
             background-image: url("http://highlandhawksfootball.com/files/2013/08/401011_164670196969646_1505405155_n1.jpg");
             background-position: center;
-            background-size: cover;
+            background-repeat: no-repeat;
+            background-size: contain;
             border: solid .5px transparent;
-            height: 173px;
+            height: 238px;
             width: 278px;
         }
 
@@ -131,11 +133,12 @@ li{
             background-position: center;
             background-size: cover;
             border: solid .5px transparent;
-            height: 173px;
+            height: 238px;
             width: 278px;
         }
 
       .box3{
+        background: white;
         border: .5px solid black;
         height: 100%;
         float: right;
@@ -145,16 +148,17 @@ li{
 
         .bottombox3{
             background-image: url("http://byu-provo-utah.runnerspace.com/members/images/4/22071_full.jpg");
-            background-position: top;
-            background-size: cover;
+            background-position: center;;
+            background-size: contain;
+            background-repeat: no-repeat;
             border: solid .5px transparent;
-            height: 173px;
+            height: 238px;
             width: 278px;
         }
 
         .topbox{
-          background: #005c99;
-          height: 130px;
+          background: #ff4d4d;
+          height: 65px;
           width: 100%;
         }
           .topbox-text{
@@ -164,7 +168,7 @@ li{
             font-family: 'Bree Serif', serif;
             font-size: 30px;
             margin: auto;
-            padding-top: 40px;
+            padding-top: 10px;
             text-align: center;
             white-space: nowrap;
             width: 170px;
