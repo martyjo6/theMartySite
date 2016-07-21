@@ -33,19 +33,21 @@ body{
   background: white;
 }
 
-.firstline{
-  width: 40%;
-
-}
-
-.secline{
-  width: 20%;
+footer{
+  padding: 0 0 5px 5px;
 }
 
 hr {
   border-color: #000033;
   width: 40%;
 }
+  .firstline{
+    width: 40%;
+  }
+
+  .secline{
+    width: 20%;
+  }
 
 li{
   display: inline-block;
@@ -88,22 +90,45 @@ li{
   margin-top: 60px;
   height: 500px;
   width: 100%;
+  white-space: nowrap;
 }
 
   .summary-content{
     height: 400px;
     padding-top: 10px;
-    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    overflow-y: hidden;
+    width: 980px;
+    white-space: nowrap;
   }
 
     .contentboxes{
       height: 305px;
       margin: 20px auto 0 auto;
-      display: block;
-      width: 950px;
-      /*max-width:
-      min-width: 950px;*/
+      display: inline-block;
+      width: 2500px;
     }
+
+      .box{
+        background: black;
+        border: .5px solid black;
+        display: inline;
+        height: 305px;
+        float: left;
+        margin: 0 0 0 25px;
+        width: 280px;
+      }
+
+      .boxwhite{
+        background: white;
+        border: .5px solid black;
+        display: inline;
+        height: 305px;
+        float: left;
+        margin: 0 0 0 25px;
+        width: 280px;
+      }
 
       .box1{
         background: black;
@@ -114,20 +139,71 @@ li{
         width: 280px;
       }
 
+        .bottomboxeagle{
+          background-image: url("http://dekalbcountyonline.com/wp-content/uploads/2015/11/eagle.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          border: solid .5px transparent;
+          height: 238px;
+          width: 278px;
+        }
+
+        .bottombox-twowheel{
+          background-image: url("http://dekalbcountyonline.com/wp-content/uploads/2015/11/eagle.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          border: solid .5px transparent;
+          height: 238px;
+          width: 278px;
+        }
+
+        .bottomboxGolden{
+          background-image: url("http://www.montecookgames.com/wp-content/uploads/2012/07/aplus_monte2-11.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          border: solid .5px transparent;
+          height: 238px;
+          width: 278px;
+        }
+
         .bottombox1{
-            background-image: url("http://highlandhawksfootball.com/files/2013/08/401011_164670196969646_1505405155_n1.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            border: solid .5px transparent;
-            height: 238px;
-            width: 278px;
+          background-image: url("http://highlandhawksfootball.com/files/2013/08/401011_164670196969646_1505405155_n1.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          border: solid .5px transparent;
+          height: 238px;
+          width: 278px;
+        }
+
+        .bottombox-tri{
+          background-image: url("http://www.masonadvisory.com/wp-content/uploads/2016/05/Triathlon-521268998.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          border: solid .5px transparent;
+          height: 238px;
+          width: 278px;
+        }
+
+        .bottombox-scholarship{
+          background-image: url("http://mim.umd.edu/wp-content/uploads/2014/10/Scholarship.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          border: solid .5px transparent;
+          height: 238px;
+          width: 278px;
         }
 
         .bottombox-text{
           height: 45px;
           font-family: 'Noto Serif', serif;
           font-size: 20px;
+          font-weight: bold;
           padding-top: 10px;
           text-align: center;
           width: 279px;
@@ -154,7 +230,7 @@ li{
         background: white;
         border: .5px solid black;
         height: 305px;
-        float: right;
+        float: left;
         margin: 0 0px 0 4px;
         width: 280px;
       }
@@ -184,7 +260,7 @@ li{
             padding-top: 10px;
             text-align: center;
             white-space: nowrap;
-            width: 170px;
+            width: 275px;
           }
 
 .text-main{
