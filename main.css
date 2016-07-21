@@ -18,6 +18,7 @@ a{
   font-size: 30px;
   height: 30px;
   padding-top: 10px;
+  margin-bottom: 100px;
   text-align: center;
   min-width: 775px;
 }
@@ -28,8 +29,17 @@ body{
   padding: 0;
 }
 
-hr{
-  color: black;
+.firstline{
+  width: 40%;
+
+}
+
+.secline{
+  width: 20%;
+}
+
+hr {
+  border-color: #000033;
   width: 40%;
 }
 
@@ -77,37 +87,61 @@ li{
 }
 
   .summary-content{
-    border: solid 3px black;
     height: 400px;
-    margin: auto;
-    width: 90%;
+    padding-top: 10px;
+    width: 100%;
   }
 
     .contentboxes{
-      border: solid 1px red;
       height: 300px;
       margin: 20px auto 0 auto;
       display: block;
-      width: 90%;
+      width: 950px;
+      /*max-width:
+      min-width: 950px;*/
     }
 
       .box1{
-        background: transparent;
+        background: #000033;
         height: 100%;
-        width: 30px;
+        float: left;
+        margin: 0 0 0 0;
+        width: 280px;
       }
 
       .box2{
-        background: transparent;
+        background: #000033;
         height: 100%;
-        width:  30px;
+        float: left;
+        margin: 0 5.25% 0 5.25%;
+        width: 280px;
       }
 
       .box3{
-        background: transparent;
+        background: #000033;
         height: 100%;
-        width: 30px;
+        float: right;
+        margin: 0 0px 0 10px;
+        width: 280px;
       }
+
+        .topbox{
+          background: #e60000;
+          height: 130px;
+          width: 100%;
+        }
+          .topbox-text{
+            background: transparent;
+            color: white;
+            height: 70px;
+            font-family: 'Bree Serif', serif;
+            font-size: 30px;
+            margin: auto;
+            padding-top: 40px;
+            text-align: center;
+            white-space: nowrap;
+            width: 170px;
+          }
 
 .text-main{
   color: white;
