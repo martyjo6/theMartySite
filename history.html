@@ -5,6 +5,7 @@
     <title>Home</title>
     <link href="main.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Noto+Serif|Rasa" rel="stylesheet">
+    <script type='text/javascript' src='javascript/jquery-3.1.0.min.js'></script>
   </head>
 
   <body>
@@ -20,10 +21,34 @@
         </div>
       </nav>
       <div class="navbar-blank"></div>
+    </header>
+
+    <div class="summary-content" id="stuff1">
+        <div class="contentboxes">
+          <div class="box">
+            <div class="topbox">
+              <div class="topbox-text"> High School </div>
+            </div>
+            <div class="bottombox1"></div>
+            <div class="bottombox-text">2009 - 2013</div>
+          </div>
+        </div>
+      </div>
+
+    <div class="box" id="stuff"></div>
 
     <footer>
       Copyright 2016 MartyVaughn
     </footer>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        $("#stuff1").hide(1000).show(500);
+        $("#stuff").slideUp(1000).show(1000).hide(500);
+
+      });
+    </script>
   </body>
 
 </html>
