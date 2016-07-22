@@ -14,17 +14,18 @@ a{
   }
 
 .about{
+  background: grey;
   color: white;
   font-size: 30px;
-  height: 30px;
+  height: 120px;
   padding-top: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 5px;
   text-align: center;
   min-width: 775px;
 }
 
 body{
-  background: grey;
+  background: white;
   margin: 0;
   padding: 0;
 }
@@ -87,7 +88,7 @@ li{
 .summary{
   background: white;
   color: black;
-  margin-top: 60px;
+  margin-top: 5px;
   height: 500px;
   width: 100%;
   white-space: nowrap;
@@ -265,6 +266,7 @@ li{
 
 .text-main{
   color: white;
+  background: grey;
   font-size: 325px;
   font-family: 'Rasa', serif;
   margin: auto;
