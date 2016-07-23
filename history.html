@@ -27,7 +27,7 @@
         <div class="contentboxes">
           <div class="box">
             <div class="topbox">
-              <div class="topbox-text"> High School </div>
+              <div class="topbox-text" id="text1"> High School </div>
             </div>
             <div class="bottombox1"></div>
             <div class="bottombox-text">2009 - 2013</div>
@@ -44,8 +44,9 @@
     <script type="text/javascript">
       $(document).ready(function() {
 
-        $("#stuff1").hide(1000).show(500);
-        $("#stuff").slideUp(1000).show(1000).hide(500);
+        $('#stuff1').on('mouseover', function(){
+          $('#stuff').toggle();
+        });
 
       });
     </script>
