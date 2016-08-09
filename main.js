@@ -1,10 +1,9 @@
-  $(document).ready(function() {
 
-    $('#stuff1').on('mouseover', function(){
-      $('#stuff').toggle();
-    });
-
-    $('.drop-down').on('click', function(){
-      $('.menu').toggle();
-    })
+$(document).ready(function(){
+  $(".drop-down-btn").click(function(){
+    $(".drop-down").toggle();
   });
+  $(".drop-down").mouseleave(function(){
+    $(".drop-down").hide();
+  });
+});
