@@ -59,6 +59,8 @@ body{
 
 footer{
   padding: 0 0 5px 5px;
+  width: 1000px;
+  z-index: -1000;
 }
 
 hr {
@@ -288,9 +290,46 @@ li{
             width: 275px;
           }
 
+.photo-left{
+  background-image: url("photos/208501_1968902385409_6864983_n.jpg");
+  height: 100%;
+  background-size: cover;
+  /*background-position: -10px -10px;*/
+  /*background-size: 350px 480px; /*1.5 scale*/
+  float: left;
+  overflow: hidden;
+  position: relative;
+  width: 35%;
+  z-index: 0;
+}
+
+.photo-center{
+  background-image: url("photos/380133_2899908939991_655987723_n.jpg");
+  height: 100%;
+  background-position: center -18px;
+  background-size: 337px 654.5px; /*1.1 scale*/
+  float: left;
+  overflow: hidden;
+  position: relative;
+  width: 26.5%;
+  z-index: 0;
+}
+
+.photo-right{
+  background-image: url("photos/418595_3223390106818_1162989400_n.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: -123px 0px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  width: 38.5%;
+  z-index: 0;
+}
+
 .text-main{
   color: white;
-  background: grey;
+  background: transparent;
   font-size: 325px;
   font-family: 'Rasa', serif;
   margin: auto;
@@ -298,10 +337,24 @@ li{
   text-align: center;
 }
 
+.title-text-hobbies{
+  color: white;
+  background: transparent;
+  font-size: 325px;
+  font-family: 'Rasa', serif;
+  margin: 0 auto -470px auto;
+  padding: 50px 0 0 0;
+  position: relative;
+  text-align: center;
+  z-index: 999;
+}
+
 .title-main{
   background: grey;
   height: 450px;
+  position: relative;
   width: 100%;
+  z-index: -999;
 }
 
 ul{
