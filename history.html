@@ -8,36 +8,56 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
   </head>
-  <body>
+  <body class="work-background">
     <header>
       <nav class="navbar">
-        <div class="logo">Marty Vaughn</div>
+        <a href="index.html"><div class="logo">Marty Vaughn</div></a>
         <div>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="history.html">Work</a></li>
             <li><a class="drop-down-btn">History</a> </li>
           </ul>
         </div>
       </nav>
       <div class="drop-down">
         <ul>
-          <li><a href="history.html">Work</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
           <li><a href="school.html">School</a></li>
           <li><a href="other.html">Other</a></li>
         </ul>
       </div>
       <div class="navbar-blank"></div>
     </header>
-
-    <div class="construction">
-      <div class="construction-text"> The "Work" page is currently under construction. Check back later!</div>
+    <div class="title-main-work rough hobby-shadow">
+      <div class="text-main-work">Work</div>
+      <div class="button-background">
+        <div class="button-contact">Contact</div>
+        <a href="resume.pdf"><div class="button-resume"> Resume</div></a>
+      </div>
     </div>
-
-    <footer class="clean">
-      Copyright 2016 MartyVaughn
-    </footer>
-
+    <div class="contactme" id="contactme">
+      <div class="contactme-container">
+        <p class="font-large"><strong>Contact Me</strong></p>
+        <form class="form">
+          <p class="name">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Your Name Here" />
+          </p>
+          <p class="email">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="email@example.com" />
+          </p>
+          <p class="message">
+            <label for="message">Message<br /></label>
+            <textarea name="message" id="message" placeholder="Enter Your Message Here" /></textarea>
+          </p>
+          <p class="submit">
+            <input type="submit" value="Send"/>
+          </p>
+        </form>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="main.js"> </script>
 
