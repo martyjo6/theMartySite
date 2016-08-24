@@ -9,10 +9,11 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $to = "martyjovaughn@gmail.com";
+    $toemail = "martyjovaughn@gmail.com, 4808686145@vtext.com";
     $subject = "New Message: MartySite";
 
-    mail($to, $subject, "Their message: \n \n" . $message,"You got an email from your website!  Reply to: " . $email) or die("Error!!!");
+    mail($toemail, $subject, "Their message: \n \n" . $message,"You got an email
+     from your website!  Reply to: " . $email) or die("Error!!!");
 
     echo "Your message has been sent. This page will redirect automatically.";
      ?>
