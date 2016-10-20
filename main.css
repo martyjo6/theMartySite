@@ -29,7 +29,7 @@ a .logo{
 }
 
 body{
-  background: white;
+  background: #edeeef;
   margin: 0;
   padding: 0;
 }
@@ -362,7 +362,7 @@ li{
   }
 
 .summary{
-  background: white;
+  background: #edeeef;
   color: black;
   margin-top: 5px;
   height: 500px;
@@ -590,7 +590,7 @@ li{
   font-family: 'Rasa', serif;
   height: 400px;
   margin: auto;
-  padding: 50px 0 0 0;
+  padding: 10px 0 0 0;
   text-align: center;
   z-index: 1;
 }
@@ -623,9 +623,19 @@ li{
   z-index: 999;
 }
 
+/* I need to start working here in order to fix the hobbies page */
+
 .title-main{
-  height: 450px;
+  height: 330px;
   position: relative;
+  margin-top: -40px;
+  width: 100%;
+    min-width: 1200px;
+  z-index: 5;
+}
+
+.title-main-hobbies{
+  height: 450px;
   width: 100%;
     min-width: 1200px;
   z-index: 5;
